@@ -92,7 +92,7 @@ if [ "$DRY_RUN" = true ]; then
 else
     mkdir -p "$TARGET_DIR" 2>/dev/null
     if cp -Rp "$FULL_TEMPLATE_PATH" "$TARGET_DIR"; then
-        printf "${GREEN}Success:${NC} '.agent' created."
+        printf "${GREEN}Success:${NC} '.agent' created.\n"
     else
         printf "${RED}Error:${NC} Copy failed. Check permissions.\n"
         exit 1
