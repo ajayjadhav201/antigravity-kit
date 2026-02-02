@@ -84,7 +84,7 @@ project_name/
 ## Best Practices
 
 - Feature-first folder structure
-- Riverpod for state, React Query pattern for server state
+- Riverpod for state management
 - Freezed for immutable data classes
 - Go Router for declarative navigation
 - Material 3 theming
